@@ -7,7 +7,7 @@ function Track({ track, handleLikeClick }) {
                 <h1>{track.name}</h1>
                 <h3>{track.artists[0].name}</h3>
                 {track.preview_url ? <audio src={track.preview_url} controls /> : null}
-                <button id="like-button" onClick={() => handleLikeClick(track)}>🖤</button>
+                <button id="like-button" onClick={() => handleLikeClick(track)}>LIKE </button>
             </li>
             <hr className='track-line'/>
         </div>
