@@ -1,12 +1,13 @@
 import React from "react";
 import {Link} from 'react-router-dom'
-import logo from '../images/watch.png'
+import logo from '../images/platinum_lounge_logo.png'
+import '../App.css';
 
 function Navbar({clientId, redirectURI, authEndpoint, responseType, token, logout}) {
     
     return(
         <header className="navbar">
-                <img id="navbar-logo" src={logo} alt='logo' />
+                <img id="navbar-logo" src={logo} alt='logo' className='headerlogo'/>
             <nav>
                 <ul className="navlinks">
                     <Link to="/"><li className="font-bold">Home</li></Link>
