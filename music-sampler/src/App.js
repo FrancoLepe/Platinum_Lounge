@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import './App.css';
 import axios from 'axios';
 import Navbar from './components/Navbar';
-import logo from './images/watch.png'
+import logo from './images/platinum_lounge_logo.png'
 import Header from './components/Header'
 import {Routes, Route} from 'react-router-dom'
 import TopTracks from './components/TopTracks';
@@ -66,17 +66,7 @@ function App() {
         }
     }
 
-    // const renderSearch = () => {
-    //     return search.map(result => (
-    //             <div key={result.id}>
-    //                 {result.images?.length ? <img width={"30%"} src={result.images[0].url} alt=""/> : <div>**No Image**</div>}
-    //                 <br/>
-    //                 {result.name}<button onClick={() => handleLikeClick(result)}>Like!</button>
-    //                 <br/>
-    //                 {result.preview_url?.length ? <audio src={result.preview_url} controls /> : null}
-    //             </div>
-    //     ))
-    // }
+  
 
 
     return (
